@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    color: #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #a3d878;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    top: 0;
+}
+
+nav .container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.links{ 
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.links li a{
+    font-size: 20px;
+    color: #000000;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 50px;margin: 10vh auto;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #fff;
+}
+
+
+.card {
+    text-align: center;
+    width: 200px;
+    font-size: 3em;
+    height: 300px;
+    background-color: #a3d878;
+}
+
+button{
+    
+    position: fixed;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 30%;
+    border: none;
+}
+
+#adicionar{
+    right: 70px;
+    background-color: #a3d878;
+}
+
+#remover{
+    background-color: #bb3232;
+}
+
+#adicionar:hover{
+    background-color: #cdf7c9;
+    cursor: pointer;
+}
+
+#remover:hover{
+    background-color: #f7c9c9;
+    cursor: pointer;
+}
